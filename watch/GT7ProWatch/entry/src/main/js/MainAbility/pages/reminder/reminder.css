@@ -1,0 +1,47 @@
+.screen {
+    width: 454px;
+    height: 454px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.title {
+    width: 360px;
+    height: 56px;
+    font-size: 38px;
+    text-align: center;
+    color: #E9A23B;
+}
+.prompt {
+    width: 360px;
+    height: 38px;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.last {
+    margin-bottom: 18px;
+}
+.btn {
+    height: 70px;
+    border-radius: 35px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.done {
+    width: 300px;
+    background-color: #1A7F4B;
+    margin-bottom: 12px;
+}
+.row {
+    width: 344px;
+    height: 74px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.half {
+    width: 168px;
+    font-size: 26px;
+    background-color: #262C36;
+}

@@ -1,0 +1,9 @@
+<div class="screen" onswipe="onSwipe">
+    <text class="label">TODAY</text>
+    <text class="score">{{ scoreText }}</text>
+    <text class="caption">Consistency (not medical)</text>
+    <text class="line">{{ line1 }}</text>
+    <text class="line">{{ line2 }}</text>
+    <input type="button" class="btn" value="{{ intervalLabel }}" onclick="onInterval"></input>
+    <text class="caption">Swipe right to go back</text>
+</div>

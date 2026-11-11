@@ -1,0 +1,14 @@
+<stack class="screen" onswipe="onSwipe">
+    <progress class="ring" type="arc" percent="{{ ringPercent }}"></progress>
+    <div class="content">
+        <text class="label">{{ label }}</text>
+        <text class="big">{{ big }}</text>
+        <text class="sub">{{ sub }}</text>
+        <div class="row">
+            <input type="button" class="btn primary" value="Moved" onclick="onMoved"></input>
+            <input type="button" class="btn water" value="Water" onclick="onWater"></input>
+        </div>
+        <input type="button" class="btn small" value="{{ focusLabel }}" onclick="onFocus"></input>
+        <text class="hint">{{ counts }}</text>
+    </div>
+</stack>

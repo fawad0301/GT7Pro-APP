@@ -1,0 +1,47 @@
+.screen {
+    width: 454px;
+    height: 454px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.label {
+    width: 300px;
+    height: 34px;
+    font-size: 24px;
+    text-align: center;
+    color: #9AA4B1;
+}
+.score {
+    width: 300px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+    color: #4CC38A;
+}
+.caption {
+    width: 320px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #9AA4B1;
+    margin-bottom: 8px;
+}
+.line {
+    width: 340px;
+    height: 36px;
+    font-size: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn {
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #FFFFFF;
+    background-color: #262C36;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}

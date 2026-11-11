@@ -1,0 +1,10 @@
+<div class="screen">
+    <text class="title">{{ title }}</text>
+    <text class="prompt">{{ prompt1 }}</text>
+    <text class="prompt last">{{ prompt2 }}</text>
+    <input type="button" class="btn done" value="Done" onclick="onDone"></input>
+    <div class="row">
+        <input type="button" class="btn half" value="{{ snoozeLabel }}" onclick="onSnooze"></input>
+        <input type="button" class="btn half" value="Skip" onclick="onSkip"></input>
+    </div>
+</div>
